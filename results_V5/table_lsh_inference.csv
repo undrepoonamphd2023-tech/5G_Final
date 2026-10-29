@@ -1,0 +1,12 @@
+measure,value,p
+stored memory entries,3468.5,
+LSH lookup (ms/query),0.6403853132491235,
+exhaustive scan of the same memory (ms/query),0.34006878040077027,
+lookup speed-up (exhaustive / LSH),0.5311832905555329,1.399664062938551e-13
+LSH / exhaustive answer agreement,0.6473,
+decision time with LSH candidate (ms),2.3067072571977234,
+decision time without LSH candidate (ms),1.5914043934503639,6.54617601876807e-15
+reward with LSH candidate,0.8735908853351553,
+reward without LSH candidate,0.8730293012732095,0.12245305613603706
+LSH-GRL decision time (LSH unused at inference),1.3776697542524061,
+GRL-only decision time,1.3838146045483655,

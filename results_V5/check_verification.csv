@@ -1,0 +1,12 @@
+check,pass,detail
+Gate 1 physics checks,True,7 checks
+Gate 2 headroom >= 5%,True,7.52%
+Regression vs V4 (required values),False,51/68 match
+Evaluation deterministic (Poisson replay = test),True,
+Local-only identical on every seed,True,
+"All rewards inside [0, 1]",True,
+"Jain indices inside (0, 1]",True,
+Topology restored after §17,True,
+Equal refiner budgets,True,
+LOSO folds complete,True,
+"Oracle >= proposed at nominal load (expected, not required)",True,10/10 seeds
